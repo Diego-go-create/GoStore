@@ -1,0 +1,7 @@
+#evitar subir imagenes de pruebas o subidas por usuarios
+uploads/*
+!uploads/ .gitkeep
+
+#credenciales de base de datos o variables senibles
+.env
+config.php
